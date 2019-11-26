@@ -1,0 +1,14 @@
+{
+  "name": "ainize-docker-nodejs",
+  "version": "1.0.0",
+  "description": "tutorial for dockerize",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "minsu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
