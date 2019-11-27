@@ -5,10 +5,11 @@ This application simply shows 'Hello World' on a web browser.
 
 ## Docker build
 ```
-docker build -t ${YOUR_DOCKER_HUB_REPO}/helloworld .
+docker build -t ${YOUR_DOCKER_HUB_ID}/helloworld .
 ```
+
 ## Docker run
 ```
-docker run -p 80:80 -d ${YOUR_DOCKER_HUB_REPO}/hello
+docker run -p 80:80 -d ${YOUR_DOCKER_HUB_ID}/helloworld
 ```
-The result can be checked on http://localhost/
+The result can be checked on http://localhost/ .
