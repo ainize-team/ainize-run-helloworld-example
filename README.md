@@ -12,4 +12,6 @@ docker build -t ${YOUR_DOCKER_HUB_ID}/helloworld .
 ```
 docker run -p 80:80 -d ${YOUR_DOCKER_HUB_ID}/helloworld
 ```
-The result can be checked on http://localhost/ .
+Now the server is available at http://localhost.
+
+Note that the docker image can be deployed using any docker-based deploy platform (e.g. [ainize.ai](https://ainize.ai)).
